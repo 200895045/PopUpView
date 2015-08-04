@@ -6,6 +6,7 @@
 
 #用法
 1.纯代码，自定义，继承自PopUpView.
+
 2.xib文件，关联customclass，获取对象用：
 ```
 PopUpView *popView = [[[UINib nibWithNibName:@"PopUpView" bundle:nil] instantiateWithOwner:self options:nil] objectAtIndex:0];
